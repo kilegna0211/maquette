@@ -1,0 +1,300 @@
+.container-fluid {
+  background: url('img/bg.jpg') repeat fixed;
+  background-size: 100%;
+  color: white;
+  }
+
+/* main rules */
+h1,h2,h3,ul {
+  text-transform: uppercase;
+  font-family: arial black, georgia, serif;
+}
+
+h2 {
+  font-size: 2.8em;
+  border-top: solid 8px #FFF000;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: #000;
+  background-color: #FFF000;
+  font-size: 1.8em;
+  letter-spacing: -2px;
+  padding: 4px 8px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 1.5em;
+  letter-spacing: 2.4px;
+  margin-top: 20px;
+}
+
+/*header*/
+#header {
+  background: url('img/full_head.jpg') top center no-repeat, url('img/full.jpg') center repeat-y;
+  background-size: 70%;
+}
+
+.bloc {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 9em;
+  padding-top: 120px;
+  line-height: 74%;
+  letter-spacing: -14px;
+  text-align: center;
+}
+
+p.foot_paragraphe {
+  border-left: solid 8px #FFF000;
+  padding-left: 6px;
+  letter-spacing: normal;
+  font-size: 1.2em;
+}
+
+span.comments {
+  color: #FFF000;
+}
+
+span.comments2 {
+  font-weight: bold;
+  color: #FFF000;
+  letter-spacing: 2px;
+}
+
+/*section*/
+#section {
+  background: url('img/full.jpg') center repeat-y;
+  background-size: 70%;
+}
+
+/*left bloc*/
+img.skate_left {
+  float: left;
+  border: solid 2px #FFF000;
+  padding: 2px;
+  margin-top: 8px;
+  margin-right: 12px;
+  width: 27%;
+}
+
+span.bold {
+  font-family: arial black, georgia, serif;
+  font-weight: bold;
+}
+
+span.italic {
+  font-family: georgia, serif;
+  font-style: italic;
+}
+
+h2.hover {
+  margin-top: 50px;
+}
+
+img.skate_right {
+  float: right;
+  border: solid 2px #FFF000;
+  padding: 2px;
+  margin-top: 8px;
+  margin-left: 12px;
+  width: 27%;
+}
+
+p.quoted {
+  background-color: rgb(30, 30, 30);
+  border-top: solid 3px #FFF000;
+  border-bottom: solid 3px #FFF000;
+  padding: 15px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.list_browser ul {
+  list-style-image: url('img/bullet.gif');
+  text-transform: none;
+  font-family: arial, serif;
+  font-size: 1.5em;
+  letter-spacing: 2.4px;
+  margin-top: 20px;
+}
+
+.ordered_list ol {
+  font-family: arial, serif;
+  font-size: 1.5em;
+  letter-spacing: 2.4px;
+  margin-top: 20px;
+}
+
+/*right bloc*/
+#menu {
+  padding-left: 0;
+  padding-right: 40px;
+}
+
+#menu h3 {
+  color: rgb(236, 21, 91);
+}
+
+.menu ul{
+  font-size: 2.8em;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.menu li {
+  list-style-image: url('img/star1.jpg');
+}
+
+.updates ul {
+  border-bottom: solid 8px #FFF000;
+  border-left: solid 8px #FFF000;
+  border-right: solid 8px #FFF000;
+  padding-left: 0;
+  padding-bottom: 200px;
+  margin-bottom: 50px;
+}
+
+.updates li {
+  list-style-type: none;
+  font-size: 1.8em;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+.side p {
+  border-bottom: solid 8px #FFF000;
+  border-left: solid 8px #FFF000;
+  border-right: solid 8px #FFF000;
+  padding: 0px 15px;
+  margin-top: 0;
+}
+
+/*footer*/
+#footer {
+  background: url('img/full_footer.jpg') bottom center no-repeat, url('img/full.jpg') center repeat-y;
+  background-size: 70%;
+  padding-top: 60px;
+}
+
+.my_links {
+  padding-left: 30px;
+}
+
+.name_list {
+  font-family: arial black, georgia, serif;
+  font-size: 2em;
+}
+
+#footer ul {
+  background-color: rgb(20, 20, 20);
+  list-style-type: none;
+  border-bottom: solid 2px rgb(100, 100, 100);
+  color: rgb(100, 100, 100);
+  text-transform: none;
+  font-family: arial, serif;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  padding-left: 0;
+}
+
+#footer li {
+  border-top: solid 2px rgb(100, 100, 100);
+  padding : 15px;
+}
+
+#footer p {
+  letter-spacing: normal;
+  padding-left: 24px;
+  padding-top: 50px;
+}
+
+/*Media Queries*/
+@media all and (min-width: 1280px) and (max-width: 1800px) {
+
+  h1 {
+    font-size: 6em;
+    padding-top: 100px;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.4em;
+  }
+
+  p {
+    font-size: 1.2em;
+    letter-spacing: 2.2px;
+    margin-top: 20px;
+  }
+
+  .menu li {
+    font-size: 0.9em;
+  }
+
+  .updates li {
+    font-size: 1.4em;
+  }
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1280px) {
+
+  h1 {
+    font-size: 4em;
+    padding-top: 50px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+  #menu li {
+    font-size: 0.8em;
+  }
+
+  p {
+    font-size: 1em;
+    letter-spacing: 2px;
+  }
+
+}
+
+@media all and (max-width: 768px) {
+
+  h1 {
+    font-size: 4em;
+    padding-top: 40px;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  h3 {
+    font-size: 0.8em;
+  }
+
+  #menu li {
+    font-size: 0.8em;
+  }
+
+  p {
+    font-size: 0.9em;
+    letter-spacing: 2px;
+  }
+
+}
